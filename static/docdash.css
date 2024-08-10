@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:azure;
+}
+
+.container{
+    padding: 10px;
+    margin-top: 10px;
+   
+}
+.logo{
+    font-size:20px;
+}
+
+span{
+    color: blue;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.main img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+header{
+   margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.cpy{
+   
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+}

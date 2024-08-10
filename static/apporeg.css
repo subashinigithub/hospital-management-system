@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    background-image: url("images/appo1.jpg");
+    background-size: cover;
+
+}
+ .container {
+    max-width: 600px;
+    margin-top: 60px;
+    background:transparent;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.container h3{
+    margin-top: 40px;
+    text-shadow: 5px 5px 10px rgb(168, 160, 160);
+}
+.container h3:hover{
+    transform: scale(1.1);
+}
+form{
+    
+    padding: 30px 15px 15px;
+    border: 2px solid black;
+    width: 500px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgba(114, 196, 226, 0.603);
+    margin: 40px auto;
+   }
+   form input:focus{
+    background-color:skyblue;
+    color: white;
+}
+button{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
