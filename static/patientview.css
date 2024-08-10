@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+}
+h3:hover{
+    transform: scale(1.1);
+}
+.table-container{
+    margin: 20px 20px;
+    justify-content: center;
+    background: transparent;
+}
+img{
+    border-radius: 50%;
+}
+.navbar a{
+    font-weight: bold;
+}
+.navbar a:hover{
+    color:blue
+}
